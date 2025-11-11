@@ -1,0 +1,17 @@
+{
+    "name": "user/associative-arrays",
+    "description": "A simple PHP to create an associative array that has office hours for a business",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.4"
+    },
+    "authors": [
+        {
+            "name": "Eyobel Gebre",
+            "email": "eyobel.gebre@tufts.edu"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

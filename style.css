@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: beige;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    color: limegreen;
+}
+
+h1 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.hours-container {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: green;
+    text-align: center;
+    margin-top: 0;
+}
+
+.schedule-list {
+    list-style: none; 
+    padding: 0;
+}
+
+.schedule-list li {
+    display: flex; 
+    justify-content: space-between;
+    padding: 10px 15px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.day {
+    font-weight: bold;
+    color: #333;
+}
+
+.open-day {
+    background-color: lightsalmon;
+    border-left: 5px solid green;
+}
+
+/* Specific styling for days the business is closed */
+.closed-day {
+    background-color: lightsalmon;
+    border-left: 5px solid red;
+}
+
+.closed-day .hours {
+    font-style: italic;
+    color: #dc3545; 
+    font-weight: bold;
+}
