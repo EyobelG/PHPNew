@@ -57,7 +57,6 @@ h2 {
     border-left: 5px solid green;
 }
 
-/* Specific styling for days the business is closed */
 .closed-day {
     background-color: lightsalmon;
     border-left: 5px solid red;
